@@ -11,7 +11,7 @@ Open **Settings → Keyboard Shortcuts**. Each action shows its current binding;
 Shortcuts are persisted to:
 
 ```
-~/.config/ar-workspace/shortcuts.json
+~/.config/cpt/shortcuts.json
 ```
 
 The file is written automatically when you save changes in the UI. You can also edit it by hand — the app loads it on startup.
@@ -58,8 +58,8 @@ All persistent state lives in the platform config directory:
 
 | Platform | Path |
 |----------|------|
-| Linux | `~/.config/ar-workspace/` |
-| Windows | `%APPDATA%\ar-workspace\` |
+| Linux | `~/.config/cpt/` |
+| Windows | `%APPDATA%\cpt\` |
 
 | File | Contents |
 |------|----------|

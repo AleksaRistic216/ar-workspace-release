@@ -2,7 +2,7 @@
 
 ## First Launch
 
-When AR Workspace opens, you'll see a single view (tab) named **View 1** with one terminal panel already open. The terminal starts in your home directory.
+When Cross Platform Terminal opens, you'll see a single view (tab) named **View 1** with one terminal panel already open. The terminal starts in your home directory.
 
 ---
 
@@ -20,7 +20,7 @@ Views are automatically suspended when you switch away from them — terminal ou
 
 ### Widgets
 
-A **Widget** is a panel inside a view. AR Workspace has two widget types:
+A **Widget** is a panel inside a view. Cross Platform Terminal has two widget types:
 
 - **Terminal** — a full PTY terminal with tab support
 - **File Browser** — a filesystem navigator

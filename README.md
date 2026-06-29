@@ -1,4 +1,4 @@
-# AR Workspace
+# Cross Platform Terminal (CPT)
 
 A keyboard-driven terminal workspace for Linux and Windows. Organize multiple terminal sessions and file browsers into tabbed views with flexible docking layouts — all without touching the mouse.
 
@@ -6,29 +6,29 @@ A keyboard-driven terminal workspace for Linux and Windows. Organize multiple te
 
 ### Linux
 
-1. Download the latest `ar-workspace-<version>-linux-x86_64.tar.gz` (or `.AppImage`) from the [Releases](../../releases) page.
+1. Download the latest `cpt-<version>-linux-x86_64.tar.gz` (or `.AppImage`) from the [Releases](../../releases) page.
 2. **tar.gz** — extract and run:
    ```sh
-   tar -xzf ar-workspace-<version>-linux-x86_64.tar.gz
-   ./ar-workspace
+   tar -xzf cpt-<version>-linux-x86_64.tar.gz
+   ./cpt
    ```
    **AppImage** — make executable and run directly:
    ```sh
-   chmod +x ar-workspace-<version>-linux-x86_64.AppImage
-   ./ar-workspace-<version>-linux-x86_64.AppImage
+   chmod +x cpt-<version>-linux-x86_64.AppImage
+   ./cpt-<version>-linux-x86_64.AppImage
    ```
 
 No installation required. The binary is self-contained.
 
-**Configuration** is stored in `~/.config/ar-workspace/`.
+**Configuration** is stored in `~/.config/cpt/`.
 
 ### Windows
 
-1. Download `ar-workspace-<version>-windows-x86_64.zip` from the [Releases](../../releases) page.
+1. Download `cpt-<version>-windows-x86_64.zip` from the [Releases](../../releases) page.
 2. Extract the zip.
-3. Run `ar-workspace.exe`.
+3. Run `cpt.exe`.
 
-**Configuration** is stored in `%APPDATA%\ar-workspace\`.
+**Configuration** is stored in `%APPDATA%\cpt\`.
 
 ## Features
 
@@ -55,6 +55,6 @@ No manual download or installer needed. The update runs in the background and do
 ## Reporting Issues
 
 Bug reports and feature requests go to the [Issues](../../issues) page. Please include:
-- AR Workspace version (shown in the title bar or **Settings → About**)
+- Cross Platform Terminal (CPT) version (shown in the title bar or **Settings → About**)
 - What you did, what you expected, what happened
 - Any relevant terminal output
