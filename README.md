@@ -52,6 +52,29 @@ Open **Settings → About** and click **Check for Update**. If a newer version i
 
 No manual download or installer needed. The update runs in the background and does not interrupt your session.
 
+## Uninstalling
+
+Open **Settings → About** and click **Uninstall...**. The dialog lists exactly what will be
+removed and offers a **Keep my settings and stay signed in** option. Confirming closes the app and
+removes the installation.
+
+To uninstall without opening the app, run `uninstall.sh` from the AppImage bundle:
+
+```sh
+./uninstall.sh                 # remove everything, including settings
+./uninstall.sh --keep-config   # keep settings and stay signed in
+```
+
+Or remove the files by hand:
+
+| Platform | Installed files | Configuration |
+|----------|-----------------|---------------|
+| Linux | `~/.local/bin/cpt`, `~/.local/share/applications/cpt.desktop`, `~/.local/share/icons/hicolor/256x256/apps/cpt.png` | `~/.config/cpt/` |
+| Windows | `%LOCALAPPDATA%\CPT\`, Start Menu shortcut `Cross Platform Terminal.lnk` | `%APPDATA%\cpt\` |
+
+Deleting the configuration directory signs the license out on that machine and resets the machine
+id — keep it if you plan to reinstall.
+
 ## Reporting Issues
 
 Bug reports and feature requests go to the [Issues](../../issues) page. Please include:
