@@ -36,6 +36,10 @@ Widgets are docked using ImGui's docking system. To rearrange:
 
 To equalize an uneven layout: **Ctrl+Shift+Alt+L** (Redistribute Layout).
 
+To keep one panel out of that — a narrow file tree, a log pane you sized by hand
+— pin it with the thumbtack button in its tab strip, or **Ctrl+Shift+Alt+P**. A
+pinned panel keeps its size and its place, and the rest share out what is left.
+
 ---
 
 ## Working with Terminals
